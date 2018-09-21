@@ -1,0 +1,36 @@
+body {
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+}
+
+#header {
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1em 2em;
+    background-color: rgba(225,225,225, 0.95);
+}
+
+#header div .links {
+    float: right;
+}
+
+#header div .links li a:hover {
+    font-weight: bold;
+}
+
+#header nav {
+     display: none;
+}
+
+@media screen and (max-width: 736px) {
+    #header div .links {
+        display: none;
+    }
+
+    #header nav {
+        display: initial;
+        float: right;
+    }
+}
