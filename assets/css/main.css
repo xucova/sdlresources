@@ -2883,7 +2883,7 @@
 			}
 
 			.spotlight:nth-of-type(2n) .content {
-				margin: 0 0 0 2em;
+				/*margin: 0 0 0 2em;*/
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2978,10 +2978,10 @@
 		.wrapper.style3 {
 			background-color: #565656;
 			color: #ffffff;
-			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
+			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.5), rgba(86, 86, 86, 0.5)), url("../../images/wave.png");
+			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.5), rgba(86, 86, 86, 0.5)), url("../../images/wave.png");
+			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.5), rgba(86, 86, 86, 0.5)), url("../../images/wave.png");
+			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.5), rgba(86, 86, 86, 0.5)), url("../../images/wave.png");
 			background-size: cover, cover;
 			background-position: center, center;
 			background-repeat: repeat, no-repeat;

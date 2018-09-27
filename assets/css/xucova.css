@@ -9,7 +9,7 @@ body {
     top: 0;
     left: 0;
     padding: 1em 2em;
-    background-color: rgba(225,225,225, 0.95);
+    background-color: rgba(225, 225, 225, 0.95);
 }
 
 #header div .links {
@@ -21,8 +21,28 @@ body {
 }
 
 #header nav {
-     display: none;
+    display: none;
 }
+
+.content {
+    /*height: 220px;*/
+}
+
+.spotlight .content header h2:before,
+.spotlight .content header h3:before,
+.spotlight .content header h4:before,
+.spotlight .content header h5:before,
+.spotlight .content header h6:before {
+    height: 2px;
+    display:none;
+}
+
+@media screen and (max-width: 980px) {
+    .spotlight .content:nth-of-type(2n) {
+        padding-top:50px;
+    }
+}
+
 
 @media screen and (max-width: 736px) {
     #header div .links {
