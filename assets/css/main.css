@@ -2958,7 +2958,7 @@
 	}
 
 		.wrapper > .inner {
-			width: 72em;
+			width: 64em;
 			max-width: 100%;
 			margin: 0 auto;
 		}
@@ -2966,7 +2966,7 @@
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					width: 64em;
+					width: 52em;
 				}
 
 			}
